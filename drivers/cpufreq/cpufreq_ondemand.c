@@ -155,7 +155,8 @@ static struct dbs_tuners {
 	.ignore_nice = 0,
 	.powersave_bias = 0,
 	.freq_boost_time = DEFAULT_FREQ_BOOST_TIME,
-	.boostfreq = CONFIG_MSM_CPU_FREQ_MAX,
+	/*  RDD.boostfreq = CONFIG_MSM_CPU_FREQ_MAX, */
+	.boostfreq = 1512000,
 	.sync_freq = 0,
 	.optimal_freq = 0,
 };
